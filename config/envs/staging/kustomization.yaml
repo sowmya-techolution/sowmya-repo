@@ -2,3 +2,5 @@
 namespace: myapp-staging
 bases:
    - ../../base
+patchesStrategicMerge:
+   - patch-replicas.yaml
